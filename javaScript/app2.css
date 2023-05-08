@@ -1,0 +1,19 @@
+.outer{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner{
+     background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+    background-color: yellow;
+    width: 250px;
+    margin: 20px ;
+    padding: 20px ;
+}

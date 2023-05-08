@@ -1,0 +1,26 @@
+.outer{
+    background-color: aqua;
+}
+
+.inner{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    /* transition: margin 2s ease-in;
+    transform: rotate(20deg); */
+    animation: try 2s linear infinite alternate forwards;
+}
+
+
+@keyframes try {
+     from{
+        margin-left: 0;
+     }
+     to{
+        margin-left: 200px;
+     }
+}
+
+/* .inner:hover{
+    margin-left:100px;
+} */
